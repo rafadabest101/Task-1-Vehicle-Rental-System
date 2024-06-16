@@ -8,7 +8,7 @@ In the Vehicle class, I added 4 public properties, a constructor and 3 abstract 
 - CalculateInsuranceCost(): it is used to calculate the total insurance cost for the whole rental period of the customer;
 - Calculate Insurance Change(): it is used to calculate the discount/addition to the insurance cost based on the business rules for it.
 
-The Car, Motorcycle and Cargo Van classes all inherit the Vehicle class, so they implement its constructor and abstract classes, but they also have an additional property for each class based on the required information.
+The Car, Motorcycle and Cargo Van classes all inherit the Vehicle class, so they implement its constructor and abstract methods, but they also have an additional property for each class based on the required information.
 
 The static Invoice class has a single method - Print(), which is used to print out the needed information about the customer and the rented vehicle on the console in the form of an invoice. This method also does calculations for certain values which do not appear in the other classes but must be printed out, such as daily rent and insurance costs, early return discounts, etc.
 
