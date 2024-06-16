@@ -1,7 +1,7 @@
 # Task-1-Vehicle-Rental-System
 This is my solution for Task 1 of the Prime Holding Internship Assignment. The README file contains a description on what my project does and how it works.
 
-I completed this task by making an abstract class - Vehicle, and 3 other classes that inherit it - Motorcycle, Car and Cargo Van. I also used a static class called Invoice, which has a single method that prints out the invoice on the console. 
+I completed this task using the principles of the object-oriented programming. First up I made an abstract class - Vehicle, and 3 other classes that inherit it - Motorcycle, Car and Cargo Van. I also used a static class called Invoice, which has a single method that prints out the invoice on the console. 
 
 In the Vehicle class, I added 4 public properties, a constructor and 3 abstract classes:
 - CalculateRentCost(): it is used to calculate the total rental cost for the whole rental period of the customer;
