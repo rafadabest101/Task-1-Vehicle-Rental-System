@@ -3,7 +3,7 @@ This is my solution for Task 1 of the Prime Holding Internship Assignment. The R
 
 I completed this task using the principles of the object-oriented programming. First up I made an abstract class - Vehicle, and 3 other classes that inherit it - Motorcycle, Car and Cargo Van. I also used a static class called Invoice, which has a single method that prints out the invoice on the console. 
 
-In the Vehicle class, I added 4 public properties, a constructor and 3 abstract classes:
+In the Vehicle class, I added 4 public properties, a constructor and 3 abstract methods:
 - CalculateRentCost(): it is used to calculate the total rental cost for the whole rental period of the customer;
 - CalculateInsuranceCost(): it is used to calculate the total insurance cost for the whole rental period of the customer;
 - Calculate Insurance Change(): it is used to calculate the discount/addition to the insurance cost based on the business rules for it.
